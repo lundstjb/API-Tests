@@ -1,0 +1,14 @@
+{
+  "name": "avApiTests",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "superagent": "^1.2.0",
+    "supertest": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha ./spec/*.js --inline-diffs"
+  }
+}
